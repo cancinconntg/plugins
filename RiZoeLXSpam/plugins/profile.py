@@ -53,7 +53,7 @@ async def name(e):
         names = e.text.split(" ", 1)
         RiZoeL = names[1]
         if len(e.text) > 5:
-            firstname = RiZoeL
+            firstname = CaN
             text = "Changing Name..."
             try:
                 await e.client(functions.account.UpdateProfileRequest(first_name=firstname))
