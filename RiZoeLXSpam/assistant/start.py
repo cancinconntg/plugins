@@ -10,11 +10,11 @@ from telethon.tl.functions.users import GetFullUserRequest
 
 btn = [
       [ 
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/RiZoeLX"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DNHxHELL")
+      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Saygisizlar"),
+      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Saygisizlar")
       ],
       [
-      Button.url("• Source Code •", "https://GitHub.com/MrRizoel/RiZoeLXSpam")
+      Button.url("• Source Code •", "https://GitHub.com/")
       ],
       [
       Button.inline("• Help And Commands •", data="help")
@@ -34,7 +34,7 @@ HELP_TEXT = """
 
 **Available Modules Given Below Click On buttons To Know usage**
 
-__Report Bugs At :__ **@DNHxHELL**
+__Report Bugs At :__ **@Saygisizlar**
 
 All cmd can be used with ! or /.
 """
@@ -177,7 +177,7 @@ async def _(event):
   
 #-------------------------------#---------------------------#-----------------------------#---------------------------#
 
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/be5c1f81cb01d4daa92ea.jpg"
         
 @RiZoeL.on(events.NewMessage(pattern="[!/]ping"))
 async def Botping(e):
@@ -277,7 +277,7 @@ async def alive(event):
               ids += 1 
            Caption = f"**RɪZᴏᴇL X Sᴘᴀᴍ Hᴇʀᴇ.** \n\n"
            Caption += f"━━━━━━━━━ × ━━━━━━━━━┑\n"
-           Caption += f"• **RiZoeLXSpam Vr:** `{rizoelversion}` \n"
+           Caption += f"• **XSpam Vr:** `{rizoelversion}` \n"
            Caption += f"• **Telethon Vr:** `{version.__version__}` \n"
            Caption += f"• **Master:** [{OWNER_ID}](tg://user?id={OWNER_ID}) \n"
            Caption += f"• **Active IDs:** `{ids}` \n"
@@ -287,15 +287,15 @@ async def alive(event):
                                 caption=Caption, 
                                 buttons=[
            [
-           Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/RiZoeLX"),
-           Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DNHxHELL")
+           Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Saygisizlar"),
+           Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Saygisizlar")
            ], 
            ], 
            )        
         except Exception as ex:
-           Caption = f"**RɪZᴏᴇL X Sᴘᴀᴍ Hᴇʀᴇ.** \n\n"
+           Caption = f"**XSpam.** \n\n"
            Caption += f"━━━━━━━━━ × ━━━━━━━━━┑\n"
-           Caption += f"• **RiZoeLXSpam Vr:** `{rizoelversion}` \n"
+           Caption += f"• **XSpam Vr:** `{rizoelversion}` \n"
            Caption += f"• **Telethon Vr:** `{version.__version__}` \n"
            Caption += f"• **Master:** [{OWNER_ID}](tg://user?id={OWNER_ID}) \n"
            Caption += f"━━━━━━━━━ × ━━━━━━━━━┙\n"
@@ -304,8 +304,8 @@ async def alive(event):
                                 caption=Caption, 
                                 buttons=[
            [
-           Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/RiZoeLX"),
-           Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DNHxHELL")
+           Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Saygisizlar"),
+           Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Saygisizlar")
            ], 
            ], 
            )
