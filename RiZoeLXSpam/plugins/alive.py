@@ -7,15 +7,15 @@ from .. import CMD_HNDLR as hl
 from telethon import events, version
 
 
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/be5c1f81cb01d4daa92ea.jpg"
 
-rizoel = "✧ 𝗥𝗶𝗭𝗼𝗲𝗟 𝗫 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲 ✧\n\n"
+rizoel = "✧ 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲 ✧\n\n"
 rizoel += f"┏━━━━━━━━━━━━━━━━━━━\n"
 rizoel += f"┣➣ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 rizoel += f"┣➣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
 rizoel += f"┣➣ **ʀɪᴢᴏᴇʟXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n" 
-rizoel += f"┣➣ **sᴜᴘᴘᴏʀᴛ** : [Join](https://t.me/DNHxHELL)\n"
-rizoel += f"┣➣ **ᴄʜᴀɴɴᴇʟ** : [Join](https://t.me/RiZoeLX)\n"
+rizoel += f"┣➣ **sᴜᴘᴘᴏʀᴛ** : [Join](https://t.me/Saygisizlar)\n"
+rizoel += f"┣➣ **ᴄʜᴀɴɴᴇʟ** : [Join](https://t.me/Saygisizlar)\n"
 rizoel += f"┗━━━━━━━━━━━━━━━━━━━\n\n"
 
 
