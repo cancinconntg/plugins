@@ -11,7 +11,7 @@ import inspect
 
 
 def load_plugins(shortname):
-        path = Path(f"RiZoeLXSpam/plugins/{shortname}.py")
+        path = Path(f"cancinconntg/plugins/{shortname}.py")
         name = "RiZoeLXSpam.plugins.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
@@ -40,7 +40,7 @@ def load_Assistant(shortname):
         import sys
         from pathlib import Path
 
-        path = Path(f"RiZoeLXSpam/assistant/plugins/{shortname}.py")
+        path = Path(f"cancinconntg/assistant/plugins/{shortname}.py")
         name = "RiZoeLXSpam.assistant.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
@@ -52,7 +52,7 @@ def load_Assistant(shortname):
         import sys
         from pathlib import Path
 
-        path = Path(f"RiZoeLXSpam/assistant/plugins/{shortname}.py")
+        path = Path(f"cancinconntg/assistant/plugins/{shortname}.py")
         name = "RiZoeLXSpam.assistant.plugins.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
